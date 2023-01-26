@@ -1,17 +1,10 @@
-import Resultado from "./components/Resultado";
-import CardStyles from "./style/Card";
-import TitleStyle from "./style/TitleStyle";
+import Game from "./components/Board";
 
 function App() {
   return (
-    <CardStyles className="App">
-      <TitleStyle>Proyecto Calculadora Prueba</TitleStyle>
-      <section>
-        <section>
-          <Resultado></Resultado>
-        </section>
-      </section>
-    </CardStyles>
+    <>
+      <Game></Game>
+    </>
   );
 }
 export default App;
